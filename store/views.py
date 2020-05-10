@@ -9,6 +9,7 @@ def store (request):
 
 
 def cart (request):
+    
     context = {}
     return render(request,'Cart.html', context)
 
